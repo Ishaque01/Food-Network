@@ -1,0 +1,18 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.Diffrent-color{
+    color: coral;
+}
+h1{
+    font-weight: 700;
+    font-size: 60px;
+    margin: 0;
+}
+p{
+    margin: 0;
+    font-size: 20px;
+}
+#Horizontal-line{
+    border-top: 1px solid red;
+}
