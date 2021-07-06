@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 .Diffrent-color{
     color: coral;
@@ -9,10 +10,52 @@ h1{
     font-size: 60px;
     margin: 0;
 }
+h2{
+    font-weight: 700;
+    font-size: 50px;
+
+}
 p{
     margin: 0;
     font-size: 20px;
 }
+.flexible-container{
+    display: flex;
+    padding-left: 60px;
+    margin-bottom: 100px;
+}
+#background-top-side{
+    background-image: url(food-network-main/images/shapes/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+    background-position:right;
+}
 #Horizontal-line{
     border-top: 1px solid red;
+}
+.half-width{
+    width: 100%
+}
+.half-width img{
+    height: 600px; width: 600px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    padding: 10px 40px;
+    border-radius: 20px;
+    padding-top: 10px;
+    color: white;
+    font-weight: 700;
+
+}
+#second-image{
+    padding-left: 60px;
+    padding-right: 40px;
+    height: 200px width: 200px
+}
+#background-bottom{
+    background-image: url(food-network-main/images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 100%;
 }
